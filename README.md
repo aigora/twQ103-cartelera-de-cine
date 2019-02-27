@@ -1,6 +1,7 @@
 # Cartelera de cine ETSIDI 
 
-Vamos a hacer un programa que permita al usuario reservar su asiento según la cartelera propuesta en la aplicación.
+Vamos a realizar un programa que permita al usuario reservar su asiento según 
+la cartelera propuesta en la aplicación.
 ## Integrantes del equipo
 
 Patricia Lantero, plantero
