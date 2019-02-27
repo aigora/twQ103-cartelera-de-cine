@@ -3,9 +3,9 @@
 Vamos a realizar un programa que permita al usuario reservar su asiento según la cartelera propuesta en la aplicación.
 ## Integrantes del equipo
 
-Patricia Lantero, plantero
-Adela Pérez, adelapv
-Idoya Zazu, IdoyaZV
+Patricia Lantero, plantero                                                                                 
+Adela Pérez, adelapv                                                                                                      
+Idoya Zazu, IdoyaZV                                                                                                       
 
 ## Objetivos del trabajo
 
