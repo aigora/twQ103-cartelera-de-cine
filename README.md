@@ -3,9 +3,9 @@
 Vamos a hacer un programa que organice los horarios
 ## Integrantes del equipo
 
-Patricia Lantero, plantero/n
-Adela Pérez, adelapv/n
-Idoya Zazu, IdoyaZV/n
+Patricia Lantero, plantero
+Adela Pérez, adelapv
+Idoya Zazu, IdoyaZV
 
 ## Objetivos del trabajo
 
