@@ -13,4 +13,5 @@ Idoya Zazu, IdoyaZV
 - Horarios de cada película y sus salas.
 - Asientos disponibles.
 - Posibilidad de reserva de entradas antes de acudir al cine con elección de asiento y el menú de palomitas que se va a elegir.
+- Posibilidad de indicar el tipo de descuento del que te puedes beneficiar al hacer la reserva para que te lo apliquen en taquilla.
 - Posibilidad de valorar el servicio del cine y de la aplicación.
