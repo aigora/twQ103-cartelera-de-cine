@@ -10,13 +10,13 @@ int main (){
 		printf("\n2-Salir de la cartelera");
 		printf("\nSeleccione la opcion: ");
 		scanf("%d", &opcion);
-
+		system ("cls");
 	}while (opcion!=2 && opcion !=1);
 		
 		switch (opcion){
 			case 1:
 				do {
-				printf("\n\n\tLista de peliculas:");
+				printf("\tLista de peliculas:");
 				printf("\n1-Bohemian Rhapsody");
 				printf("\n2-El Rey Leon");
 				printf("\n3-A Star is Born");
@@ -25,10 +25,11 @@ int main (){
 				printf("\n6-Campeones");
 				printf("\nEscoja el numero de la pelicula que quiere ver:  ");
 				scanf("%d", &pelicula);
+				system ("cls");
 
 			}while (pelicula<1 || pelicula>6);
 				if (pelicula == 1){
-					printf("\n\tBohemian Rhapsody\nSALA 1");
+					printf("\tBohemian Rhapsody\nSALA 1");
 					printf("\nHorarios");
 					do{
 						
@@ -42,7 +43,7 @@ int main (){
 						
 				}
 				else if (pelicula == 2){
-					printf("\n\tEl Rey Leon\nSALA 2");
+					printf("\tEl Rey Leon\nSALA 2");
 					printf("\nHorarios");
 					do{
 					
@@ -54,7 +55,7 @@ int main (){
 				} while (hora != 2 && hora!=1);
 				}
 				else if(pelicula == 3){
-					printf("\nSALA 3");
+					printf("\tA Star is Born\nSALA 3");
 					printf("\nHorarios");
 					do{
 						
@@ -67,19 +68,20 @@ int main (){
 				} while(hora != 3 && hora!= 2 && hora != 1);
 				}
 				else if(pelicula == 4){
-					printf("\nSALA 1");
+					printf("\tEl Reino\nSALA 1");
 					printf("\nHorarios");
 					do{
 						
 				    printf("\nOpcion 1:  15:30");
 				    printf("\nOpcion 2:  20:00");
 				    printf("\nOpcion 3:  22:30");
+				    printf("\nEscoja una hora: ");
 				    scanf("%d", &hora);
 
 				} while( hora != 3 && hora != 2 && hora != 1);
 				}
 				else if(pelicula == 5){
-					printf("\nSALA 2");
+					printf("\tCapitana Marvel\nSALA 5");
 					printf("\nHorarios");
 					do{
 						
@@ -92,7 +94,7 @@ int main (){
 				}
 				else if (pelicula == 6)
 				{
-					printf("\nSALA 3");
+					printf("\tCampeones\nSALA 6");
 					printf("\nHorarios");
 					do{
 						
