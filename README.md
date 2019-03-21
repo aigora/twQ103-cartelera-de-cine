@@ -21,6 +21,7 @@ Idoya Zazu, IdoyaZV
 //Menu de la cartelera de cine
 
 #include<stdio.h>
+
 int main (){
 	int opcion, pelicula, hora;
 	do
