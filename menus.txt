@@ -1,0 +1,4 @@
+1 Pequena 6
+2 Mediana 7
+3 Grande 8
+4 Nada 0
