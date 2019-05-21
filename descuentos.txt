@@ -1,5 +1,4 @@
 1 Joven 10
-
 2 Mayor 20
 3 Socio 15
 4 FNumerosa 10
