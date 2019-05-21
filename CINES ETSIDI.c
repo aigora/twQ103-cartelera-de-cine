@@ -1,3 +1,8 @@
+/*Patricia Lantero López de Carrizosa 53370
+Adela Pérez Verdejo 53531
+Idoya Zazu Vives 53632*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
