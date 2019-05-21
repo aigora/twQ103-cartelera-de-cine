@@ -274,7 +274,7 @@ struct Usuario login(struct Usuarios usuarios) {
     
     for (i = 0; i < usuarios.total; i++) {
         if (strcmp(nombre, usuarios.array[i].nombre) == 0 && strcmp(contrasena, usuarios.array[i].contrasena) == 0) {
-            printf("¡Bienvenido! \n");
+            printf("Â¡Bienvenido! \n");
             return usuarios.array[i];
         }
     }
@@ -401,7 +401,7 @@ void mostrarCriticas(struct Criticas criticas) {
 }
 
 void mostrarReservas(struct Reservas reservas) {
-    printf("Reservas para el d\241 de hoy: \n");
+    printf("Reservas para el d\241a de hoy: \n");
     int i;
     for (i = 0; i < reservas.total; i++) {
         printf("%s \n", reservas.array[i].reserva);
@@ -469,14 +469,14 @@ void dejarCritica() {
 
         printf("Muchas gracias por su opini\242n! \n");
     }
-    printf("\t\n\nRESERVA COMPLETADA CON \220XITO.\n\t¡¡Disfrute su funci\242n!! \n");
+    printf("\t\n\nRESERVA COMPLETADA CON \220XITO.\n\tÂ¡Â¡Disfrute su funci\242n!! \n");
 }
 
-//Función principal
+//FunciÃ³n principal
 
 int main() {
     printf("-------- CINES ETSIDI --------\n");
-    printf ("¡¡Reserva YA tu entrada para HOY!!\n\nDebe iniciar sesi\242n:\n");
+    printf ("Â¡Â¡Reserva YA tu entrada para HOY!!\n\nDebe iniciar sesi\242n:\n");
 
     struct Usuarios usuarios = leerUsuarios();
     struct Usuario usuario = login(usuarios);
