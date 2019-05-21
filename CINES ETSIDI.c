@@ -417,7 +417,7 @@ void procesar(struct Usuario usuario, struct Pelicula pelicula, struct Horario h
     printf("Horario: %s \n", horario.hora);
     printf("Fila/Butaca: %d/%d \n", butaca.fila, butaca.butaca);
     printf("Men\243: %s %d\200 \n", menu.nombre, menu.precio);
-    printf("Precio: %d \n", pelicula.precio + menu.precio);
+    printf("Precio: %d\200 \n", pelicula.precio + menu.precio);
     printf("Descuento: %s \n", descuento.nombre);
 
     float total = pelicula.precio - (pelicula.precio * (descuento.porcentaje / 100.0)) + menu.precio;
@@ -456,7 +456,7 @@ void dejarCritica() {
 
     if (opcion == 's') {
         char critica[100];
-        printf("Por favor escriba su cr\241tica: \n");
+        printf("Por favor escriba su cr\241tica sobre la app: \n");
         scanf(" %[^\n]s", critica);
 
         FILE *ficheroCriticas = fopen("criticas.txt", "a");
