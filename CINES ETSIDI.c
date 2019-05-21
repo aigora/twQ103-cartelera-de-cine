@@ -453,11 +453,13 @@ void dejarCritica() {
     char opcion;
     printf("\277Desea dejar una critica de nuestra aplicaci\242n?\nSI(s)\nNO(n)\nSu selecci\242n: ");
     scanf(" %c", &opcion);
+	fflush(stdin);
 
     if (opcion == 's') {
         char critica[100];
         printf("Por favor escriba su cr\241tica sobre la app: \n");
         scanf(" %[^\n]s", critica);
+	fflush(stdin);
 
         FILE *ficheroCriticas = fopen("criticas.txt", "a");
         if (ficheroCriticas == NULL) {
